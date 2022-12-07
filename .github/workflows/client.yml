@@ -10,7 +10,7 @@ jobs:
       - name: Checkout source code.
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm run install
+        run: npm install
         working-directory: ./my-agora-states-client
       - name: Build
         run: npm run build
